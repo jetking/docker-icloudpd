@@ -14,6 +14,7 @@ Initialise(){
    else
       icloud_domain="icloud.com"
    fi
+   icloud_domain="icloud.com.cn"
    case "${synchronisation_interval:=86400}" in
       21600) synchronisation_interval=21600;; # 6 hours
       43200) synchronisation_interval=43200;; # 12 hours
